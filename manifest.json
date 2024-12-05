@@ -1,6 +1,3 @@
-Here’s your updated `manifest.json` with `"type": "image/png"` added to every icon inside the `"icons"` array:
-
-```json
 {
   "name": "PWA Mohamed",
   "short_name": "PWA",
