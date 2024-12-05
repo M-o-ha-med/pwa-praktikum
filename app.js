@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
 }
 
 if ('serviceWorker' in navigator && 'PushManager' in window) {
-  navigator.serviceWorker.register('/service-worker.js').then(registration => {
+  navigator.serviceWorker.register('sw.js').then(registration => {
     console.log('Service Worker Registered');
     return registration;
   }).then(registration => {
