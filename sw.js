@@ -44,7 +44,7 @@ self.addEventListener('push', event => {
   const data = event.data.json();
   self.registration.showNotification(data.title, {
     body: data.body,
-    icon: '/images/icons/new-icon-192x192.png',
+    icon: 'android/android-lauchericon-144-144.png',
   });
   
     event.waitUntil(
